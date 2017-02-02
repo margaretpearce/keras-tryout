@@ -52,3 +52,5 @@ with sess.as_default():
     print(acc_values.eval(feed_dict={img: mnist_data.test.images,
                                      labels: mnist_data.test.labels,
                                      k.learning_phase(): 0}))
+
+# 0.9514
